@@ -2,6 +2,7 @@
   "name": "Wardrobe AI",
   "description": "Smart wardrobe digitizer with AI-powered weather recommendations and outfit matching.",
   "requestFramePermissions": [
-    "camera"
+    "camera",
+    "geolocation"
   ]
 }

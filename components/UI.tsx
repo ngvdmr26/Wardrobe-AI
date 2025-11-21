@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Loader: React.FC<{ text?: string }> = ({ text = "Loading..." }) => (
+export const Loader: React.FC<{ text?: string }> = ({ text = "Загрузка..." }) => (
   <div className="flex flex-col items-center justify-center p-8 text-primary">
     <svg className="animate-spin h-8 w-8 mb-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
       <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
